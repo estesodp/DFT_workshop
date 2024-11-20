@@ -1,0 +1,53 @@
+ running on    4 total cores
+ distrk:  each k-point on    4 cores,    1 groups
+ distr:  one band on    1 cores,    4 groups
+ vasp.6.2.0 18Jan21 (build Aug 12 2022 13:00:08) complex                        
+  
+ POSCAR found type information on POSCAR Si
+ POSCAR found :  1 types and       2 ions
+ scaLAPACK will be used
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.355303898230E+01   -0.35530E+01   -0.18694E+03  2008   0.365E+02
+DAV:   2    -0.109116684896E+02   -0.73586E+01   -0.68307E+01  3048   0.489E+01
+DAV:   3    -0.109762012501E+02   -0.64533E-01   -0.64533E-01  2408   0.558E+00
+DAV:   4    -0.109763508825E+02   -0.14963E-03   -0.14963E-03  3064   0.268E-01
+DAV:   5    -0.109763510478E+02   -0.16522E-06   -0.16523E-06  2384   0.563E-03    0.606E+00
+DAV:   6    -0.108555823021E+02    0.12077E+00   -0.77975E-02  2328   0.144E+00    0.372E+00
+DAV:   7    -0.108004353429E+02    0.55147E-01   -0.15062E-01  2440   0.214E+00    0.184E-01
+DAV:   8    -0.108013328965E+02   -0.89755E-03   -0.33543E-03  2096   0.413E-01    0.705E-02
+DAV:   9    -0.108015567954E+02   -0.22390E-03   -0.22167E-04  2720   0.113E-01    0.611E-02
+DAV:  10    -0.108015808002E+02   -0.24005E-04   -0.26355E-05  2208   0.383E-02    0.885E-03
+DAV:  11    -0.108015804595E+02    0.34075E-06   -0.68155E-07  2760   0.526E-03
+   1 F= -.10801580E+02 E0= -.10801580E+02  d E =-.108016E+02
+ curvature:   0.00 expect dE= 0.000E+00 dE for cont linesearch  0.000E+00
+ trial: gam= 0.00000 g(F)=  0.270E-43 g(S)=  0.581E-02 ort = 0.000E+00 (trialstep = 0.100E+01)
+ search vector abs. value=  0.581E-02
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.108048575580E+02   -0.32768E-02   -0.89477E-02  2448   0.166E+00    0.280E-01
+DAV:   2    -0.108033197379E+02    0.15378E-02   -0.11980E-03  2488   0.215E-01    0.161E-01
+DAV:   3    -0.108025351047E+02    0.78463E-03   -0.16087E-03  2248   0.201E-01    0.609E-02
+DAV:   4    -0.108025349541E+02    0.15063E-06   -0.12310E-05  2696   0.298E-02    0.564E-02
+DAV:   5    -0.108025280594E+02    0.68947E-05   -0.45558E-06  2192   0.145E-02    0.185E-02
+DAV:   6    -0.108025283177E+02   -0.25839E-06   -0.36821E-08  1200   0.167E-03
+   2 F= -.10802528E+02 E0= -.10802528E+02  d E =-.947858E-03
+ trial-energy change:   -0.000948  1 .order   -0.001030   -0.005813    0.003752
+ step:   0.5953(harm=  0.6077)  dis= 0.00000  next Energy=   -10.803293 (dE=-0.171E-02)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.108036588617E+02   -0.11308E-02   -0.14840E-02  2424   0.680E-01    0.116E-01
+DAV:   2    -0.108034147114E+02    0.24415E-03   -0.19604E-04  2512   0.867E-02    0.665E-02
+DAV:   3    -0.108032868203E+02    0.12789E-03   -0.26413E-04  2248   0.817E-02    0.249E-02
+DAV:   4    -0.108032872526E+02   -0.43231E-06   -0.20078E-06  2536   0.121E-02    0.232E-02
+DAV:   5    -0.108032888945E+02   -0.16419E-05   -0.71042E-07  1936   0.580E-03    0.806E-03
+DAV:   6    -0.108032888023E+02    0.92287E-07   -0.86948E-09  1024   0.759E-04
+   3 F= -.10803289E+02 E0= -.10803289E+02  d E =-.170834E-02
+ curvature:  -0.30 expect dE=-0.772E-07 dE for cont linesearch -0.772E-07
+ trial: gam=-0.00657 g(F)=  0.225E-43 g(S)=  0.254E-06 ort = 0.385E-04 (trialstep = 0.919E+00)
+ search vector abs. value=  0.111E-09
+ reached required accuracy - stopping structural energy minimisation

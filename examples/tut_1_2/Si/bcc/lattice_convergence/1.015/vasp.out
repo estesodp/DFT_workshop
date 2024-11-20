@@ -1,0 +1,28 @@
+ running on    4 total cores
+ distrk:  each k-point on    4 cores,    1 groups
+ distr:  one band on    1 cores,    4 groups
+ vasp.6.2.0 18Jan21 (build Aug 12 2022 13:00:08) complex                        
+  
+ POSCAR found type information on POSCAR Si
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.353105633246E+01   -0.35311E+01   -0.13994E+03  1016   0.268E+02
+DAV:   2    -0.489505585565E+01   -0.13640E+01   -0.13422E+01  1392   0.222E+01
+DAV:   3    -0.490051443744E+01   -0.54586E-02   -0.54580E-02   952   0.141E+00
+DAV:   4    -0.490051918806E+01   -0.47506E-05   -0.47501E-05  1464   0.423E-02
+DAV:   5    -0.490051918758E+01    0.48010E-09   -0.37088E-09   968   0.236E-04    0.263E+00
+DAV:   6    -0.488916883914E+01    0.11350E-01   -0.39018E-03   928   0.275E-01    0.145E+00
+DAV:   7    -0.488276663366E+01    0.64022E-02   -0.77279E-03   968   0.385E-01    0.134E-01
+DAV:   8    -0.488274729952E+01    0.19334E-04   -0.34988E-05  1256   0.441E-02    0.121E-02
+DAV:   9    -0.488274789251E+01   -0.59298E-06   -0.40647E-07  1008   0.364E-03
+   1 F= -.48827479E+01 E0= -.48823077E+01  d E =-.488275E+01
+ curvature:   0.00 expect dE= 0.000E+00 dE for cont linesearch  0.000E+00
+ trial: gam= 0.00000 g(F)=  0.202E-64 g(S)=  0.000E+00 ort = 0.000E+00 (trialstep = 0.100E+01)
+ search vector abs. value=  0.100E-09
+ reached required accuracy - stopping structural energy minimisation
